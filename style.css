@@ -10,8 +10,8 @@ body{
 
 img{
     border-radius: 60%;
-    max-width:40%;
-    max-height:40%;
+    max-width:30%;
+    max-height:30%;
 
 
 }
@@ -20,6 +20,10 @@ img{
     background-color: white;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 2%;
+    max-height: 100%;
+    
   }
   
   .con1 {
@@ -28,6 +32,8 @@ img{
     border-radius: 20px;
     align-items:flex-start;
 
+    
+
  }
 
  .con2 {
@@ -35,7 +41,9 @@ img{
     flex-flow: row wrap;
     max-width: 50%;
     border-radius: 20px;
-    align-items:flex-end;
+    padding-top: 20%;
+    flex-direction: column;
+    justify-content: flex-end
     
   }
 
@@ -47,7 +55,6 @@ img{
     max-width: 100%;
     border-radius:2%;
 
-   
  }
 
  p{
@@ -60,12 +67,15 @@ img{
     text-align: right;
     max-width: 100%;
     border-radius:2%;
+    justify-content: flex-end;
+    
  }
 
 span{
     display: flex;
     margin-top: 10%;
     justify-content: flex-end;
+    font-size:x-small;
     color: #BDC2C6;
 }
 
