@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    
+}
+.icon{
+    color: #BDC2C6;
+}
+
+img{
+    border-radius: 60%;
+    max-width:40%;
+    max-height:40%;
+
+
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .con1 {
+    display: flex;
+    max-width: 50%;
+    border-radius: 20px;
+    align-items:flex-start;
+
+ }
+
+ .con2 {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 50%;
+    border-radius: 20px;
+    align-items:flex-end;
+    
+  }
+
+
+ .msg1 {
+    margin: 1;
+    background-color: aliceblue;
+    text-align: left;
+    max-width: 100%;
+    border-radius:2%;
+
+   
+ }
+
+ p{
+    padding: 2%;
+    margin: 2%;
+ }
+
+ .msg2 {
+    background-color: aliceblue;
+    text-align: right;
+    max-width: 100%;
+    border-radius:2%;
+ }
+
+span{
+    display: flex;
+    margin-top: 10%;
+    justify-content: flex-end;
+    color: #BDC2C6;
+}
+
+
+ 
